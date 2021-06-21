@@ -1,0 +1,115 @@
+.main {
+    
+    background-image: url(image2.png);
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    max-width: 100%;
+    height: auto;
+}
+
+
+.home_banner {
+    color: black;
+    position: relative;
+    right: 10px;
+    top: 100px;
+    
+}
+
+.nav-link:hover{
+    background-color: #295939;
+}
+
+.donate {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: left; 
+    justify-content: left;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#295939;
+    
+    }
+
+.donate:hover {
+    background-color:#00917c;
+}
+
+.about {
+    background-image:url('image6.png');
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#about {
+    position: relative;
+    top: 90px;
+    right: 120px;
+    font-size: 20px;
+    font-family: cursive;
+    color: yellow;
+    font-weight: bolder;
+}
+
+.h1 {
+    position: relative;
+    left: 250px;
+    top: 70px;
+}
+
+.do {
+   background-image: url(image9.png);
+   background-position: initial;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   max-width: 100%;
+   height: auto;
+}
+
+.sign-up-form
+	{
+		width:450px;
+		box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.8);
+		background:#fff;
+		padding:20px;
+		margin:5% auto 0;
+		text-align:center;
+		border-radius: 35px; 
+		opacity:0.8;
+		}
+	.sign-up-form h1
+	{
+		color:#1c8adb;
+	margin-bottom:30px;
+	font-size:23px;
+	}
+	img
+	{
+		width:100px;
+		margin-top:-10px;
+		
+	}
+	.header_area
+	{
+		padding-top:20px;
+	}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
